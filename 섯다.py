@@ -1,10 +1,16 @@
 import random
+import turtle as t
 e = 10
+
 while True:
+  t.bgcolor("black")
+  t.up()
+  t.ht()
   a = random.randint(1,10)
   b = random.randint(1,10)
   c = random.randint(1,10)
   d = random.randint(1,10)
+  
   player = a + b
   dealer = c + d
   if player >= 10:
